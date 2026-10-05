@@ -1,5 +1,6 @@
 node_modules/
 dist/
+dist-plain/
 .env
 .env.*
 !.env.example
@@ -9,4 +10,5 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
-mommils-deploy.zip
+mommils-deploy*.zip
+mommils-deploy*.tar.gz
