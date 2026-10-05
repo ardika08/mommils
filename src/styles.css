@@ -51,7 +51,7 @@ img { display: block; max-width: 100%; }
 .menu-button { display: none; background: transparent; color: white; }
 .menu-button svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-width: 1.7; }
 
-.hero { position: relative; aspect-ratio: 16 / 9; min-height: 685px; overflow: hidden; background: #372a48; color: white; }
+.hero { position: relative; height: 70vh; min-height: 560px; overflow: hidden; background: #372a48; color: white; }
 .hero-slides, .hero-slide, .hero-wash { position: absolute; inset: 0; }
 .hero-slide { background-position: center; background-size: cover; opacity: 0; transform: scale(1.04); transition: opacity 1s, transform 7s linear; }
 .hero-slide.is-active { opacity: 1; transform: scale(1); }
@@ -150,7 +150,7 @@ em { color: var(--primary-pink); font-style: normal; }
   .nav-links.is-open { display: flex; }
   .nav-links > a:not(.button) { padding: 13px 10px; }
   .nav-ticket { margin-top: 7px; text-align: center; }
-  .hero, .hero-content { min-height: 650px; }
+  .hero, .hero-content { min-height: 600px; }
   .hero-content { align-items: end; padding-bottom: 105px; }
   .hero-wash { background: linear-gradient(0deg, rgba(28,20,43,.9) 4%, rgba(39,28,52,.33) 90%); }
   .hero-copy { max-width: 570px; }
