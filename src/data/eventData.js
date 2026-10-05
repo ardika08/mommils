@@ -1,11 +1,11 @@
 export const eventData = {
-  date: '2026-12-12T09:00:00+07:00',
-  dateLabel: '12-13 Desember 2026',
-  timeLabel: '09.00 - 20.00 WIB',
-  venue: 'Jakarta Convention Center',
+  date: '2026-12-05T08:00:00+07:00',
+  dateLabel: '5-6 Desember 2026',
+  timeLabel: '08.00 - 20.00 WIB',
+  venue: 'Pullman Jakarta Central Park',
   ticketUrl: 'https://wa.me/6281234567890?text=Halo%20Mommils%2C%20saya%20ingin%20membeli%20tiket%20Family%20Fest%202026',
   instagramUrl: 'https://instagram.com',
-  email: 'hello@mommils.id',
+  email: 'mommilsbirthclub@gmail.com',
 }
 
 export const slides = [
