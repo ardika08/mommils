@@ -3,7 +3,7 @@ export const eventData = {
   dateLabel: '5-6 Desember 2026',
   timeLabel: '08.00 - 20.00 WIB',
   venue: 'Pullman Jakarta Central Park',
-  ticketUrl: 'https://wa.me/6281234567890?text=Halo%20Mommils%2C%20saya%20ingin%20membeli%20tiket%20Family%20Fest%202026',
+  ticketUrl: 'https://tiket.diamcreative.com/event/mommils-family-fest-2026',
   instagramUrl: 'https://instagram.com',
   email: 'mommilsbirthclub@gmail.com',
 }
