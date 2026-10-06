@@ -188,10 +188,10 @@ function Countdown() {
 }
 
 const highlights = [
-  { number: '01', icon: '✦', title: 'Presale Ultimate Baby Shower', text: 'Eksplorasi permainan aktif, sensory play, dan zona petualangan yang aman.' },
-  { number: '02', icon: '♫', title: 'Presale Super Mommils Race', text: 'Musik, pertunjukan interaktif, dan karakter favorit yang menghibur seharian.' },
-  { number: '03', icon: '◎', title: 'Presale Mommils Gala & Award Night', text: 'Aktivitas hands-on untuk mengasah kreativitas dan rasa ingin tahu si kecil.' },
-  { number: '04', icon: '♡', title: 'Couple Prenatal Yoga & Edukasi Persalinan', text: 'Pilihan produk keluarga, kuliner lezat, dan brand lokal pilihan dalam satu tempat.' },
+  { number: '01', image: '/images/img-4.jpg', title: 'Presale Ultimate Baby Shower', text: 'Eksplorasi permainan aktif, sensory play, dan zona petualangan yang aman.' },
+  { number: '02', image: '/images/img-4.jpg', title: 'Presale Super Mommils Race', text: 'Musik, pertunjukan interaktif, dan karakter favorit yang menghibur seharian.' },
+  { number: '03', image: '/images/img-4.jpg', title: 'Presale Mommils Gala & Award Night', text: 'Aktivitas hands-on untuk mengasah kreativitas dan rasa ingin tahu si kecil.' },
+  { number: '04', image: '/images/img-4.jpg', title: 'Couple Prenatal Yoga & Edukasi Persalinan', text: 'Pilihan produk keluarga, kuliner lezat, dan brand lokal pilihan dalam satu tempat.' },
 ]
 
 function Highlights() {
@@ -208,10 +208,14 @@ function Highlights() {
         <div className="highlight-grid">
           {highlights.map((item) => (
             <article className="highlight-card" key={item.title}>
-              <span className="card-number">{item.number}</span>
-              <div className="card-icon">{item.icon}</div>
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
+              <div className="card-image">
+                <img src={item.image} alt={item.title} loading="lazy" />
+                <span className="card-number">{item.number}</span>
+              </div>
+              <div className="card-body">
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
+              </div>
             </article>
           ))}
         </div>
