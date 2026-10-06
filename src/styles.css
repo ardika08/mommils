@@ -104,7 +104,7 @@ h1 { max-width: 650px; margin-bottom: 23px; font-size: clamp(44px, 5vw, 68px); f
 .section-heading h2 { margin: 10px 0 0; font-size: clamp(36px, 3.8vw, 52px); font-weight: 700; letter-spacing: -.045em; line-height: 1.08; }
 em { color: var(--primary-pink); font-style: normal; }
 .section-heading > p { max-width: 350px; margin: 0 20px 4px 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
-.highlight-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.highlight-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
 .highlight-card { position: relative; overflow: hidden; border-radius: 19px; background: var(--lavender); box-shadow: 0 8px 24px rgba(43, 31, 61, 0.08); transition: transform .25s, box-shadow .25s; }
 .highlight-card:hover { transform: translateY(-5px); box-shadow: 0 18px 35px rgba(48,36,53,.16); }
 .card-image { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
@@ -155,7 +155,6 @@ em { color: var(--primary-pink); font-style: normal; }
   .section { padding: 75px 0; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 22px; margin-bottom: 32px; }
   .section-heading > p { margin: 0; }
-  .highlight-grid { grid-template-columns: repeat(2, 1fr); }
   .ticket-section { padding-bottom: 75px; }
   .ticket-card { align-items: flex-start; flex-direction: column; gap: 28px; padding: 62px 35px 35px; }
   .ticket-badge { left: 35px; }
@@ -180,7 +179,6 @@ em { color: var(--primary-pink); font-style: normal; }
   .time-unit { height: 73px; border-radius: 12px; }
   .time-unit strong { font-size: 26px; }
   .time-unit span { font-size: 9px; }
-  .highlight-grid { grid-template-columns: 1fr; gap: 12px; }
   .ticket-copy h2 { font-size: 32px; line-height: 1.18; }
   .footer-main { grid-template-columns: 1fr 1fr; padding-bottom: 35px; }
   .footer-brand { grid-column: 1 / 3; }

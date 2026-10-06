@@ -188,10 +188,8 @@ function Countdown() {
 }
 
 const highlights = [
-  { number: '01', image: '/images/img-4.jpg', title: 'Presale Ultimate Baby Shower' },
-  { number: '02', image: '/images/img-4.jpg', title: 'Presale Super Mommils Race' },
-  { number: '03', image: '/images/img-4.jpg', title: 'Presale Mommils Gala & Award Night' },
-  { number: '04', image: '/images/img-4.jpg', title: 'Couple Prenatal Yoga & Edukasi Persalinan' },
+  { image: '/images/img-4.jpg', title: 'Presale Ultimate Baby Shower' },
+  { image: '/images/img-5.jpg', title: 'Presale Super Mommils Race' },
 ]
 
 function Highlights() {
